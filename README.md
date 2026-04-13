@@ -31,6 +31,8 @@ The game simulates deck creation, card dealing, player turns, rank requests, boo
 - `random`
 - `collections.deque`
 
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -62,13 +64,13 @@ python src/Go_Fish_Card_Game.py
 ---
 
 ## 🧠 Game Logic
-- A shuffled deck is created with ranks **2–10, J, Q, K, A**, with four of each rank. :contentReference[oaicite:1]{index=1}
-- Each player is dealt starting cards. :contentReference[oaicite:2]{index=2}
-- On each turn, a player asks another player for a rank they already have in hand. :contentReference[oaicite:3]{index=3}
+- A shuffled deck is created with ranks **2–10, J, Q, K, A**, with four of each rank.
+- Each player is dealt starting cards.
+- On each turn, a player asks another player for a rank they already have in hand.
 - If the opponent has matching cards, they are transferred.
-- Otherwise, the player must **Go Fish** and draw from the deck. :contentReference[oaicite:4]{index=4}
-- Whenever a player collects 4 cards of the same rank, a **book** is formed automatically. :contentReference[oaicite:5]{index=5}
-- When the game ends, the player with the most books wins. :contentReference[oaicite:6]{index=6}
+- Otherwise, the player must **Go Fish** and draw from the deck.
+- Whenever a player collects 4 cards of the same rank, a **book** is formed automatically.
+- When the game ends, the player with the most books wins.
 
 ---
 
